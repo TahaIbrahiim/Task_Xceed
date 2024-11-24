@@ -29,7 +29,8 @@ Run
 
 Download or Clone the project 
 then u can open Tools -> Nuget Package Manager -> Package Manager Console 
-then write : "update-database"
+then choose default project : "RepositoryPatternWithUOW.EF"
+then write : "update-database" 
 
 
 
