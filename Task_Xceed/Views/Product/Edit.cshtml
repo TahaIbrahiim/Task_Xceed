@@ -1,0 +1,120 @@
+﻿@model Product
+
+@{
+    ViewData["Title"] = "Edit Product";
+}
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
+<link href="~/css/Edit.css" rel="stylesheet" />
+
+<div class="container my-5">
+    <h1 class="mb-4 text-center">@ViewData["Title"]</h1>
+
+    <!-- Error -->
+    @if (TempData["Error"] != null)
+    {
+        <div class="alert alert-danger" role="alert">
+            @TempData["Error"]
+        </div>
+    }
+
+    <form method="post" asp-controller="Product" asp-action="Edit" asp-route-id="@Model.Id" enctype="multipart/form-data" class="border p-4 rounded shadow-sm">
+        <input type="hidden" name="Id" value="@Model.Id" />
+
+        <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" id="name" name="Name" class="form-control" required value="@Model.Name" />
+        </div>
+
+        <div class="mb-3">
+            <label for="price" class="form-label">Price</label>
+            <input type="number" id="price" name="Price" class="form-control" step="0.01" required value="@Model.Price" />
+        </div>
+
+        <div class="mb-3">
+            <label for="startdate" class="form-label">Start Date</label>
+            <input type="date" id="startdate" name="StartDate" class="form-control" required value="@Model?.StartDate.ToString("yyyy-MM-dd")" />
+        </div>
+
+        <div class="mb-3">
+            <label for="duration" class="form-label">Duration (in days)</label>
+            <input type="number" id="duration" name="Duration" class="form-control" required value="@Model?.Duration" />
+        </div>
+
+        <div class="mb-3">
+            <label for="category" class="form-label">Category</label>
+            <select id="category" name="CategoryId" class="form-select">
+                @foreach (var category in (IEnumerable<SelectListItem>)ViewBag.category)
+                {
+                    <option value="@category.Value">@category.Text</option>
+                }               
+            </select>
+        </div>
+
+        <label class="form-label" style="padding-top:15px">Image</label>
+        <div class="input-group mb-3">
+            <input type="file" class="form-control" id="Image" name="Image" accept="image/*" />
+            <label class="input-group-text" for="Image">Upload</label>
+        </div>
+
+        <div class="preview-container">
+            <div id="Image-Container" class="media-preview @(!string.IsNullOrEmpty(ViewData["ImageBase64"] as string) ? "" : "d-none")">
+                @if (!string.IsNullOrEmpty(ViewData["ImageBase64"] as string))
+                {
+                    <img src="data:image/jpeg;base64,@ViewData["ImageBase64"]" alt="Product Image" />
+                }
+                else
+                {
+                    <p>No image available.</p>
+                }
+            </div>
+        </div>
+
+
+        <button type="submit" class="btn btn-primary mt-3" id="submitBtn" disabled>Update</button>
+    </form>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $('#Image').on('change', function () {
+            var file = this.files[0];
+            if (file) {
+                var imageUrl = URL.createObjectURL(file);
+                var imageContainer = $('#Image-Container');
+                imageContainer.removeClass('d-none');
+                imageContainer.find('img').attr('src', imageUrl);
+            }
+        });
+    });
+</script>
+
+
+<script>
+    $(document).ready(function () {
+        var submitBtn = $('#submitBtn');
+        submitBtn.prop('disabled', true);
+
+        function validateForm() {
+            var isValid = true;
+
+            $('form input, form select').each(function () {
+                if ($(this).val() === '') {
+                    isValid = false;
+                }
+            });
+
+            submitBtn.prop('disabled', !isValid);
+        }
+
+        $('form input, form select').on('input change', function () {
+            validateForm();
+        });
+
+        validateForm();
+    });
+</script>
+

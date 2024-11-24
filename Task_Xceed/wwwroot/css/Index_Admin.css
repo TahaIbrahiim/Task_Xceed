@@ -1,0 +1,81 @@
+﻿.product-card {
+border: 1px solid #ddd;
+border-radius: 8px;
+overflow: hidden;
+transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.product-image {
+background-color: #f8f8f8;
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+}
+
+.card-body {
+display: flex;
+flex-direction: column;
+}
+
+.card-body h5 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.card-body p {
+    font-size: 1rem;
+    color: #333;
+}
+
+.card-body .btn {
+    margin-top: auto;
+}
+
+.category-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.category-btn {
+    background-color: #6c757d;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    .category-btn:focus {
+        outline: none;
+    }
+
+.category-menu {
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    margin-top: 5px;
+    border-radius: 5px;
+    min-width: 200px;
+}
+
+.category-item {
+    display: block;
+    padding: 10px 15px;
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.category-item:hover {
+    background-color: #f8f9fa;
+}
+
+.category-dropdown:hover .category-menu {
+    display: block;
+}

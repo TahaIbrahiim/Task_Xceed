@@ -1,0 +1,79 @@
+﻿@model User
+@{
+    ViewData["Title"] = "Register";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+
+    <link href="~/css/Register.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>@ViewData["Title"]</h1>
+        <form asp-action="Register" method="post" class="form-container">
+            <div class="form-group">
+                <label for="Username">Username:</label>
+                <input asp-for="Username" id="Username" />
+                <span asp-validation-for="Username" class="error-message"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="Email">Email:</label>
+                <input asp-for="Email" id="Email" />
+                <span asp-validation-for="Email" class="error-message"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="Password">Password:</label>
+                <input asp-for="Password" type="password" id="Password" />
+                <span asp-validation-for="Password" class="error-message"></span>
+            </div>
+
+            <div class="form-group select-container">
+                <label for="Role">Role:</label>
+                <select asp-for="Role" id="Role">
+                    <option value="Admin">Admin</option>
+                    <option value="Client">Client</option>
+                </select>
+                <span asp-validation-for="Role" class="error-message"></span>
+            </div>
+
+            <button type="submit" id="submitBtn" disabled>Register</button>
+            <a asp-controller="Auth" asp-action="Login">Already have an account ?</a>
+        </form>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            var submitBtn = $('#submitBtn');
+            submitBtn.prop('disabled', true);
+
+            function validateForm() {
+                var isValid = true;
+
+                $('#Username, #Email, #Password, #Role').each(function () {
+                    if ($(this).val() === '') {
+                        isValid = false;
+                    }
+                });
+
+                submitBtn.prop('disabled', !isValid);
+            }
+
+            $('#Username, #Email, #Password, #Role').on('input', function () {
+                validateForm();
+            });
+
+            validateForm();
+        });
+    </script>
+</body>
+</html>

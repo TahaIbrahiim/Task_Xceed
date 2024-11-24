@@ -1,0 +1,113 @@
+﻿
+body {
+font-family: Arial, sans-serif;
+background-color: #f4f7fa;
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+
+.container {
+background-color: white;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+padding: 40px;
+width: 100%;
+max-width: 500px;
+}
+
+
+h1 {
+text-align: center;
+color: #333;
+font-size: 24px;
+margin-bottom: 30px;
+}
+
+
+.form-container {
+width: 100%;
+}
+
+.form-group {
+margin-bottom: 20px;
+}
+
+
+label {
+font-size: 14px;
+font-weight: bold;
+color: #555;
+margin-bottom: 8px;
+display: block;
+}
+
+
+input, select {
+width: 100%;
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 6px;
+box-sizing: border-box;
+font-size: 14px;
+background-color: #f9f9f9;
+}
+
+  
+input[type="password"] {
+    font-family: 'Arial', sans-serif;
+}
+
+
+.error-message {
+color: red;
+font-size: 12px;
+margin-top: 5px;
+}
+
+
+button {
+width: 100%;
+padding: 12px;
+background-color: #007bff;
+color: white;
+border: none;
+border-radius: 6px;
+font-size: 16px;
+cursor: pointer;
+transition: background-color 0.3s ease;
+padding-bottom: 20px;
+margin-bottom: 15px;
+}
+
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+.select-container select {
+background-color: #f9f9f9;
+padding: 12px;
+font-size: 14px;
+}
+
+
+p {
+text-align: center;
+margin-top: 20px;
+font-size: 14px;
+}
+
+a {
+color: #007bff;
+text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

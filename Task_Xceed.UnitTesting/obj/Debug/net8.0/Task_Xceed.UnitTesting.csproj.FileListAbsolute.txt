@@ -1,0 +1,6 @@
+C:\Users\DELL\source\repos\Task_Xceed\Task_Xceed.UnitTesting\bin\Debug\net8.0\.msCoverageSourceRootsMapping_Task_Xceed.UnitTesting
+C:\Users\DELL\source\repos\Task_Xceed\Task_Xceed.UnitTesting\obj\Debug\net8.0\Task_Xceed.UnitTesting.csproj.AssemblyReference.cache
+C:\Users\DELL\source\repos\Task_Xceed\Task_Xceed.UnitTesting\obj\Debug\net8.0\Task_Xceed.UnitTesting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\source\repos\Task_Xceed\Task_Xceed.UnitTesting\obj\Debug\net8.0\Task_Xceed.UnitTesting.AssemblyInfoInputs.cache
+C:\Users\DELL\source\repos\Task_Xceed\Task_Xceed.UnitTesting\obj\Debug\net8.0\Task_Xceed.UnitTesting.AssemblyInfo.cs
+C:\Users\DELL\source\repos\Task_Xceed\Task_Xceed.UnitTesting\obj\Debug\net8.0\Task_Xceed.UnitTesting.csproj.CoreCompileInputs.cache

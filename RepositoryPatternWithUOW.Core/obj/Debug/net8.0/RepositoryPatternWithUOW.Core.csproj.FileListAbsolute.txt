@@ -1,0 +1,12 @@
+C:\Users\DELL\source\repos\Task_Xceed\RepositoryPatternWithUOW.Core\bin\Debug\net8.0\RepositoryPatternWithUOW.Core.deps.json
+C:\Users\DELL\source\repos\Task_Xceed\RepositoryPatternWithUOW.Core\bin\Debug\net8.0\RepositoryPatternWithUOW.Core.dll
+C:\Users\DELL\source\repos\Task_Xceed\RepositoryPatternWithUOW.Core\bin\Debug\net8.0\RepositoryPatternWithUOW.Core.pdb
+C:\Users\DELL\source\repos\Task_Xceed\RepositoryPatternWithUOW.Core\obj\Debug\net8.0\RepositoryPatternWithUOW.Core.csproj.AssemblyReference.cache
+C:\Users\DELL\source\repos\Task_Xceed\RepositoryPatternWithUOW.Core\obj\Debug\net8.0\RepositoryPatternWithUOW.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\source\repos\Task_Xceed\RepositoryPatternWithUOW.Core\obj\Debug\net8.0\RepositoryPatternWithUOW.Core.AssemblyInfoInputs.cache
+C:\Users\DELL\source\repos\Task_Xceed\RepositoryPatternWithUOW.Core\obj\Debug\net8.0\RepositoryPatternWithUOW.Core.AssemblyInfo.cs
+C:\Users\DELL\source\repos\Task_Xceed\RepositoryPatternWithUOW.Core\obj\Debug\net8.0\RepositoryPatternWithUOW.Core.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\Task_Xceed\RepositoryPatternWithUOW.Core\obj\Debug\net8.0\RepositoryPatternWithUOW.Core.dll
+C:\Users\DELL\source\repos\Task_Xceed\RepositoryPatternWithUOW.Core\obj\Debug\net8.0\refint\RepositoryPatternWithUOW.Core.dll
+C:\Users\DELL\source\repos\Task_Xceed\RepositoryPatternWithUOW.Core\obj\Debug\net8.0\RepositoryPatternWithUOW.Core.pdb
+C:\Users\DELL\source\repos\Task_Xceed\RepositoryPatternWithUOW.Core\obj\Debug\net8.0\ref\RepositoryPatternWithUOW.Core.dll
