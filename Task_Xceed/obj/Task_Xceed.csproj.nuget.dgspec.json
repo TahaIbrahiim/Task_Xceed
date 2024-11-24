@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DELL\\source\\repos\\Task_Xceed\\Task_Xceed\\Task_Xceed.csproj": {}
+    "C:\\Taha\\Task_Xceed\\Task_Xceed\\Task_Xceed.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DELL\\source\\repos\\Task_Xceed\\RepositoryPatternWithUOW.Core\\RepositoryPatternWithUOW.Core.csproj": {
+    "C:\\Taha\\Task_Xceed\\RepositoryPatternWithUOW.Core\\RepositoryPatternWithUOW.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\Task_Xceed\\RepositoryPatternWithUOW.Core\\RepositoryPatternWithUOW.Core.csproj",
+        "projectUniqueName": "C:\\Taha\\Task_Xceed\\RepositoryPatternWithUOW.Core\\RepositoryPatternWithUOW.Core.csproj",
         "projectName": "RepositoryPatternWithUOW.Core",
-        "projectPath": "C:\\Users\\DELL\\source\\repos\\Task_Xceed\\RepositoryPatternWithUOW.Core\\RepositoryPatternWithUOW.Core.csproj",
+        "projectPath": "C:\\Taha\\Task_Xceed\\RepositoryPatternWithUOW.Core\\RepositoryPatternWithUOW.Core.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL\\source\\repos\\Task_Xceed\\RepositoryPatternWithUOW.Core\\obj\\",
+        "outputPath": "C:\\Taha\\Task_Xceed\\RepositoryPatternWithUOW.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -71,14 +71,14 @@
         }
       }
     },
-    "C:\\Users\\DELL\\source\\repos\\Task_Xceed\\RepositoryPatternWithUOW.EF\\RepositoryPatternWithUOW.EF.csproj": {
+    "C:\\Taha\\Task_Xceed\\RepositoryPatternWithUOW.EF\\RepositoryPatternWithUOW.EF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\Task_Xceed\\RepositoryPatternWithUOW.EF\\RepositoryPatternWithUOW.EF.csproj",
+        "projectUniqueName": "C:\\Taha\\Task_Xceed\\RepositoryPatternWithUOW.EF\\RepositoryPatternWithUOW.EF.csproj",
         "projectName": "RepositoryPatternWithUOW.EF",
-        "projectPath": "C:\\Users\\DELL\\source\\repos\\Task_Xceed\\RepositoryPatternWithUOW.EF\\RepositoryPatternWithUOW.EF.csproj",
+        "projectPath": "C:\\Taha\\Task_Xceed\\RepositoryPatternWithUOW.EF\\RepositoryPatternWithUOW.EF.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL\\source\\repos\\Task_Xceed\\RepositoryPatternWithUOW.EF\\obj\\",
+        "outputPath": "C:\\Taha\\Task_Xceed\\RepositoryPatternWithUOW.EF\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -96,8 +96,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\DELL\\source\\repos\\Task_Xceed\\RepositoryPatternWithUOW.Core\\RepositoryPatternWithUOW.Core.csproj": {
-                "projectPath": "C:\\Users\\DELL\\source\\repos\\Task_Xceed\\RepositoryPatternWithUOW.Core\\RepositoryPatternWithUOW.Core.csproj"
+              "C:\\Taha\\Task_Xceed\\RepositoryPatternWithUOW.Core\\RepositoryPatternWithUOW.Core.csproj": {
+                "projectPath": "C:\\Taha\\Task_Xceed\\RepositoryPatternWithUOW.Core\\RepositoryPatternWithUOW.Core.csproj"
               }
             }
           }
@@ -156,14 +156,14 @@
         }
       }
     },
-    "C:\\Users\\DELL\\source\\repos\\Task_Xceed\\Task_Xceed\\Task_Xceed.csproj": {
+    "C:\\Taha\\Task_Xceed\\Task_Xceed\\Task_Xceed.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\source\\repos\\Task_Xceed\\Task_Xceed\\Task_Xceed.csproj",
+        "projectUniqueName": "C:\\Taha\\Task_Xceed\\Task_Xceed\\Task_Xceed.csproj",
         "projectName": "Task_Xceed",
-        "projectPath": "C:\\Users\\DELL\\source\\repos\\Task_Xceed\\Task_Xceed\\Task_Xceed.csproj",
+        "projectPath": "C:\\Taha\\Task_Xceed\\Task_Xceed\\Task_Xceed.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL\\source\\repos\\Task_Xceed\\Task_Xceed\\obj\\",
+        "outputPath": "C:\\Taha\\Task_Xceed\\Task_Xceed\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -181,8 +181,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\DELL\\source\\repos\\Task_Xceed\\RepositoryPatternWithUOW.EF\\RepositoryPatternWithUOW.EF.csproj": {
-                "projectPath": "C:\\Users\\DELL\\source\\repos\\Task_Xceed\\RepositoryPatternWithUOW.EF\\RepositoryPatternWithUOW.EF.csproj"
+              "C:\\Taha\\Task_Xceed\\RepositoryPatternWithUOW.EF\\RepositoryPatternWithUOW.EF.csproj": {
+                "projectPath": "C:\\Taha\\Task_Xceed\\RepositoryPatternWithUOW.EF\\RepositoryPatternWithUOW.EF.csproj"
               }
             }
           }
@@ -211,10 +211,6 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.0, )"
-            },
-            "bootstrap": {
-              "target": "Package",
-              "version": "[5.3.3, )"
             }
           },
           "imports": [

@@ -16,6 +16,6 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = RepositoryPatternWithUOW.EF
-build_property.ProjectDir = C:\Users\DELL\source\repos\Task_Xceed\RepositoryPatternWithUOW.EF\
+build_property.ProjectDir = C:\Taha\Task_Xceed\RepositoryPatternWithUOW.EF\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
